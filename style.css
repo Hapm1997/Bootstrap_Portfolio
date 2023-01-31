@@ -1,0 +1,116 @@
+/* 
+#6EF0D2 
+#05445E
+#189AB4
+#D4F1F4
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Advent+Pro:wght@400&display=swap');
+
+body{
+    background-color: #D4F1F4;
+    position: relative;
+}
+h1{
+    background-color: #6ef0d2c1;
+    border-radius: 20px
+}
+.logo{
+    width: 60px;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 100px;
+    
+}
+h2{
+    font-family: 'Abril Fatface', cursive;
+    color: #05445E;
+}
+h3{
+    font-family: 'Acme', sans-serif;
+    color: #189AB4;
+}
+h5{
+    font-family: 'Abril Fatface', cursive;
+    color:#D4F1F4;
+}
+p{
+    font-family: 'Advent Pro', sans-serif;
+}
+.espacio{
+    margin-top: -7%;
+    width: 10px;
+    height: 20px;
+}
+.flecha{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    animation: flecha 3s infinite;
+    transition: all 0.5s ease-in-out;
+}
+@keyframes flecha {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.flecha:hover{
+    opacity: 50%;
+}
+.flecha img{
+    width: 50px;
+}
+.img-princ-desk{
+    display: block;
+    height: 35rem;
+    background-image: url("https://fondosmil.com/fondo/12535.jpg");
+    background-position: center;
+}
+.img-princ-desk h1{
+    color: aliceblue;
+    font-size: 3.9rem;
+    text-align:start;
+    width: 600px;
+    font-family: 'Russo One', sans-serif;
+}
+.box-cap-car{
+    background-color: #05435ec2;
+    bottom: 15%;
+    padding: 0;
+    margin: 0;
+}
+.img-redes{
+    width: 80%;
+}
+.img-redes:hover{
+    cursor: pointer;
+}
+
+.fin{
+    background: linear-gradient(#6EF0D2, #0dcaf0);
+}
+@media all  and (max-width: 767px){
+    .img-princ-desk h1{
+        text-align: center;
+        width: 70%;
+    }
+    .flecha{
+        /* position: fixed; */
+        bottom: 10%;
+        /* right: 5%; */
+        /* animation: flecha 3s infinite; */
+        /* transition: all 0.5s ease-in-out; */
+    }
+}
